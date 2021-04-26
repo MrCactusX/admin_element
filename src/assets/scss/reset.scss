@@ -1,0 +1,130 @@
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+dl,
+dt,
+a,
+input,
+button,
+textarea,
+select {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html,
+body {
+    font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    min-width: 1226px;
+    font-size: 12px;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+input {
+    font: normal;
+}
+
+input:focus,
+a:focus {
+    outline: none;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1226px;
+    margin: 0 auto;
+
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('../fonts/iconfont.eot');
+    /* IE9*/
+    src: url('../fonts/iconfont.eot#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/iconfont.woff') format('woff'),
+        /* chrome, firefox */
+        url('../fonts/iconfont.woff2') format('woff2'),
+        /* chrome, firefox */
+        url('../fonts/iconfont.ttf') format('truetype'),
+        /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+}
+
+.row {
+    margin-left: -14px;
+}
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9,
+.span10,
+.span11,
+.span12,
+.span13,
+.span14,
+.span15,
+.span16,
+.span17,
+.span18,
+.span19,
+.span20 {
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+
+.span4 {
+    width: 234px;
+}
+.span16 {
+    width: 978px;
+}
